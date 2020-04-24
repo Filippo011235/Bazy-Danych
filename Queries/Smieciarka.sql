@@ -1,9 +1,9 @@
 USE mydb;
 
-/*
+
 SELECT * FROM Smieciarka 
 WHERE Nr_rejestracyjny = 'SCI1035' OR Data_odbioru  = '2020-01-20';
-*/
+
 /*
 UPDATE Smieciarka
 SET Waga = 1234
