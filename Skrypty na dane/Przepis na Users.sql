@@ -8,6 +8,15 @@ GRANT SELECT, UPDATE, INSERT, DELETE
 ON mydb.Odpad
 TO inz@localhost;
 
+-- GRANT 
+--    SELECT (Nr_rejestracyjny)
+-- ON mydb.Smieciarka 
+-- TO inz@localhost;
+-- 
+-- GRANT SELECT
+-- ON mydb.Kontener
+-- TO inz@localhost;
+
 -- ------------------------------------------
 CREATE USER IF NOT EXISTS handel@localhost IDENTIFIED BY 'handel';
 
